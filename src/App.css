@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+}
+.main-content {
+  display: flex;
+  text-align: center;
+  margin: 30px;
+  border-top: solid;
+  flex-direction: row;
+
+}
+
+.recipes {
+  text-align: center;
+  margin: 30px;
+  width: 1000px;
+  border-right: solid;
+  
+}
+
+.addButton {
+  flex-direction: row;
+  text-align: center;
+  margin-right: 30px;
+  padding: 5px;
+}
+
+li {
+  list-style: none;
+  margin-top: 2%
+}
+
+img {
+  width: 150px;
+}
+
+.recipe-display {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.recipe-block {
+  flex-direction: row;
+  width: 33%;
+  word-wrap: break-word;
+  border-radius: 2%;
+}
+.recipe-block:hover {
+  background: #F0F8FF;
+}
+
+ul {
+  text-align: left;
+}
+
+.block-buttons {
+  margin: 2%
+}
