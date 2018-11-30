@@ -5,17 +5,12 @@
   display: flex;
   text-align: center;
   margin: 30px;
-  border-top: solid;
   flex-direction: row;
-
 }
 
 .recipes {
   text-align: center;
-  margin: 30px;
   width: 1000px;
-  border-right: solid;
-  
 }
 
 .addButton {
@@ -45,6 +40,7 @@ img {
   width: 33%;
   word-wrap: break-word;
   border-radius: 2%;
+  padding: 2%;
 }
 .recipe-block:hover {
   background: #F0F8FF;
@@ -56,4 +52,8 @@ ul {
 
 .block-buttons {
   margin: 2%
+}
+
+.btn {
+  margin: 3px;
 }
